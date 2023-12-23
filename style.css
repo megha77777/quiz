@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25px 0;
+}
+.right-nav>ul>li{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    
+}
+.right-nav>ul>li>a{
+    text-decoration: none;
+    color: rgb(190, 185, 185);
+}
+#login-btn{
+    cursor: pointer;
+    border: 2px solid rgb(253,220,116);
+    padding: 3px 10px;
+    background-color: white;
+    color: rgb(253,220,116);
+    font-weight: 800;
+}
+.first-sec{
+    /* border: 2px solid black; */
+    width: 950px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.first-sec-left{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.first-sec-left>h2{
+    font-weight: 900;
+}
+.first-sec-left>p{
+    color: gray;
+    border-left: 2px solid gray;
+    padding-left: 8px;
+}
+#start-solving{
+    cursor: pointer;
+    color: white;
+    background-color: rgb(253,201,36);
+    padding: 8px 11px;
+    border: none;
+}
+.popup-body h2, p{
+    font-weight: 900;
+    text-align: center;
+}
+.popup{
+    position: fixed;
+    top: 0;
+    background-color: rgba(0,0,0,0.659);
+    padding: 10px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.popup-body{
+    padding: 40px 20px;
+    background-color: white;
+    width: 800px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+}
+.category{
+    
+}
+.category>button{
+    cursor: pointer;
+    padding: 5px 10px;
+    margin: 20px 10px;
+    border: none;
+}
+.close{
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+}
+#start-quiz{
+    cursor: pointer;
+    color: white;
+    background-color: rgb(253,201,36);
+    padding: 8px 11px;
+    border: none;
+}
+.button-close{
+    display: inline;
+}

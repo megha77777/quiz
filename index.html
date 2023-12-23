@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="first">
+    <nav>
+        <img src="logo.svg" alt="">
+        <div class="right-nav">
+            <ul>
+                <li>
+                    <a href="#" class="disabled" aria-disabled="true">How it works?</a>
+                    <a href="#">Features</a>
+                    <a href="#">About Us</a>
+                </li>
+            </ul>
+        </div>
+        <button id="login-btn">Login</button>
+    </nav>
+    <div class="first-sec">
+        <div class="first-sec-left">
+            <h2>Learn <br>
+                new concepts <br>
+                for each question</h2>
+                <p>We help you prepare for exams and quizes </p>
+                <button id="start-solving" onclick="togglePopup()">Start Solving</button>
+        </div>
+        <img src="que_img.svg" alt="">
+    </div>
+    </div>
+    <div class="popup" style="display: none;">
+        <div class="popup-body">
+            <span class="close" onclick="togglePopup()">&times;</span>
+            <h2>Choose your favorite topic</h2>
+            <p>Select more than 5 topics to start quiz</p>
+            <div class="category">
+                <button>General Knowledge</button>
+                <button>Science</button>
+                <button>Mathematics</button>
+                <button>History</button>
+                <button>Coding</button>
+                <button>Social Studies</button>
+                <button>Data Structure</button>
+                <button>HTML</button>
+                <button>JavaScript</button>
+                <button>Aptitude</button>
+                <button>Enviromental Studies</button>
+                <button>Physics</button>
+                <button>Chemistry</button>
+                <button>Programming</button>
+                <button>Java</button>
+            </div>
+            <button id="start-quiz">Start Quiz</button>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
